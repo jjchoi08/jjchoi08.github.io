@@ -77,11 +77,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  name             : "James Choi"
+  avatar           : "https://avatars2.githubusercontent.com/u/14361459?v=3&u=ba0345a77062d6169c20e218bf0004851fa8dc0f&s=400"
+  bio              : "On a journey to become a Data Scientist"
+  location         : "New York, NY"
+  email            : "jungsangjameschoi@gmail.com",'jjc544@nyu.edu"
   uri              :
   bitbucket        :
   codepen          :
