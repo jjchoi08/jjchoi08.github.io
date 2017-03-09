@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Site Title"
+title                    : "Data Science Blog"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "James Choi"
+description              : ""
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -81,7 +81,7 @@ author:
   avatar           : "https://avatars2.githubusercontent.com/u/14361459?v=3&u=ba0345a77062d6169c20e218bf0004851fa8dc0f&s=400"
   bio              : "On a journey to become a Data Scientist"
   location         : "New York, NY"
-  email            : "jungsangjameschoi@gmail.com, jjc544@nyu.edu"
+  email            : "jungsangjameschoi@gmail.com"
   uri              :
   bitbucket        :
   codepen          :
@@ -89,12 +89,12 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "https://www.github.com/jjchoi08"
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : "https://www.linkedin.com/in/jamesjschoi/"
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
