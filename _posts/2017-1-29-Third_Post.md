@@ -31,13 +31,10 @@ Double-Double = +1.5PTs
 Triple-Double = +3PTs
 ```
 
-#### What features to look at?
+#### Data Gathering
 
-![image](/images/MP_DPP.png)
+DraftKing provides available players of the night as csv file. You can manually download it from DK's site or run a simple Selenium / Chrome Drive like this. You will have to log on to your DK account to do so. 
 
-The minutes played is probably the most important feature to consider. It's important to pick starter or someone who's promised to play many minutes. These are 25 players that were playing on that day. DraftKing provides available players of the night as csv file. 
-
-I maually downloed a list of today's available players from DK's site or run a simple Selenium / Chrome Drive to do it for me.
 ```python
 url = 'https://www.draftkings.com/contest/draftteam/40242256'
 chromedriver = "/Users/myusername/Applications/chromedriver"
@@ -104,9 +101,10 @@ So now each player has a list of two values. First the url and second is 2017 se
 
 One important thing I noticed by playing fatnasy basketball is that picking starters really helps you gain more points. Meaning that players with more points played will have higher chance of performing better or scoring more than bench players. Let's take a look at relationship between fantasy points and minutes played for key players of the day. 
 
-![alt text](imagename.png "Title")
+![alt text](/images/minutes_pts.png "features")
+![alt text](/images/homeaway.png "homeaway")
 
-This seems pretty positively related. But we can't just pick features out of box like this for all of them. 
+These seem pretty positively related. But we can't just pick features out of box like this for all of them. 
 
 #### Feature selection
 
@@ -160,7 +158,7 @@ new_df = pd.concat([feature_df, home_dummies, team_dummies], axis=1)
 
 This way, pandas will create dummy variables for home/away and opponent teams. 
 
-![alt text](features_df.png "feature preview")
+![alt text](/images/features_df.png "feature preview")
 
 I am going to create a regression model for Demar DeRozan ( a Toronto Raptos player ) and see how the result comes out.
 
@@ -176,6 +174,6 @@ reg.fit(X_train, y_train)
 
 Simple linear regression model spitted out 97.0 R square.
 
-![alt text](predict_actual.png "predict_vs_actual")
+![alt text](/images/predict_actual.png "predict_vs_actual")
 
 I first thought this is really great, but soon I realized why my score was so high. Since my lable, daily performance point is a formula that contains points, assists, rebounds, etc., it's really combination of all my features. It wouldn't be so accruate to use components of the formula as features- this would of course overfit. Now I need to go back and think about what features I should really use. But on the good side, I have data and model setup already so just need to think about it more and make modification. I will continue in the second part!
