@@ -172,7 +172,7 @@ reg = linear_model.LinearRegression()
 reg.fit(X_train, y_train)
 ```
 
-Simple linear regression model spitted out 97.0 R square.
+Simple linear regression model spitted out 97.0 R squared! That is pretty impressive....oh but wait,
 
 ![alt text](/images/predict_actual.png "predict_vs_actual")
 
