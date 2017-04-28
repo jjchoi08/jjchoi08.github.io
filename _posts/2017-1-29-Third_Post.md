@@ -6,13 +6,13 @@ title: Regression Analysis on NBA Players- Part 1
 As soon as the second week of Metis bootcamp started, we dived right into Machine Learning. 
 
 
-#### The Project 
+### The Project 
 
 The second project was about analyzing either movie or sports data and come up with a predictive model using regression analysis. I have analyzed movie data and created a simple recommendation system for a personal project a year ago so I wanted to do something different. I wanted to create something that I can continuously work on even after graduating the bootcamp. As a huge basketball fan, I could only think about analyzing NBA data. 
 
 
 
-#### Fantasy Game Prediction it is!
+### Fantasy Game Prediction it is!
 
 So I play DraftKings daily for NBA games. I have won small many times before but always wanted to reach the top. I started to google about fantasy game prediction analysis to understand how I should approach the problem. As expected, I found so many people working on the project with so many different languages. I also found few Metis alumnus working on the exact same problem using Python Scikit-Learn! Interestingly, a group of people were doing it with Excel and another with R, then another with Matlab. I could definitely see people are trying to apply Machine Learning to predict daily performance of NBA players to optimize their line ups in the fantasy game. And with my domain knowledge in sports, I thoguht I could do it better than these people somehow.
 
@@ -31,7 +31,7 @@ Double-Double = +1.5PTs
 Triple-Double = +3PTs
 ```
 
-#### Data Gathering
+### Data Gathering
 
 DraftKing provides available players of the night as csv file. You can manually download it from DK's site or run a simple Selenium / Chrome Drive like this. You will have to log on to your DK account to do so. 
 
@@ -97,7 +97,7 @@ for i, v in todays_players.items():
 ```
 So now each player has a list of two values. First the url and second is 2017 season game log data table in html format. I could simply put this into a dataframe or save it as a csv to work on next day without having to scrape all over again.
 
-#### Which features to use?
+### Which features to use?
 
 One important thing I noticed by playing fatnasy basketball is that picking starters really helps you gain more points. Meaning that players with more points played will have higher chance of performing better or scoring more than bench players. Let's take a look at relationship between fantasy points and minutes played for key players of the day. 
 
@@ -106,7 +106,7 @@ One important thing I noticed by playing fatnasy basketball is that picking star
 
 These seem pretty positively related. But we can't just pick features out of box like this for all of them. 
 
-#### Feature selection
+### Feature selection
 
 There many ways to select features but I will try sklearn's kbest feature selection module to see which ones are more correlated to the label than others. 
 
