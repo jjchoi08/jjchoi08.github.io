@@ -174,7 +174,7 @@ compare_df = cityreview_df[cityreview_df['business_id']!=myuser_business_id]
 
 ```
 
-#### Word2Vec
+### Word2Vec
 
 I used gensim word2vec to train the text reviews. After model is trained, I am going to use it to compare all word in the user's restaurant to other ones and get the most similar ones. 
 
@@ -281,7 +281,7 @@ for r in business.find({'business_id':'hroo5nOO8b9QhHX0GLg7oA'}):
     
 ```
 
-#### Next Steps
+### Next Steps
 
 There are many things left to be done! I will need to rewrite the functions I wrote as Python packages or Flask app so it looks more like a real recommendation engine. Then, I am going to post t-sne and LDA and NMF topic modeling, which I did not include in this post. It sould be an interesting visualization.  
 
