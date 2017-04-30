@@ -246,9 +246,9 @@ def get_model_score(s1,s2):
 
 ```
 
-So I decided to try TfIdf instead. TfIdf is Term Frequency (Tf) + Inverse Document Frequency (Idf). It is used to reflect how important a word is to a document in a collection oor corpus. It combines the frequency and how rare the word appears and provide a score. 
+So I decided to try TfIdf instead. TfIdf is Term Frequency (Tf) + Inverse Document Frequency (Idf). It is used to reflect how important a word is to a document in a collection oor corpus. It combines the frequency and how rare the word appears in a corpus and provides a score. 
 
-I fit_transform the review corpus, which is a list of sets grouped by its business id and all reviews combined. Then, I set ngram range as two so it would consider two combined words as well. Finally, the find_similarity function returns the index (business id + review text) and score (cosine similarity) in descending order.  
+I used fitted and transformed the review corpus, which is a list of sets grouped by its business id and all reviews combined. Then, I set ngram range as two so it would consider two combined words as well. Finally, the find_similarity function returns the index (business id + review text) and score (cosine similarity) in descending order.  
 
 ```python
 from sklearn.feature_extraction.text import TfidfVectorizer,TfidfTransformer, CountVectorizer
@@ -270,7 +270,7 @@ for index, score in find_similar(tfidf_matrix, 2039):
        print score, corpus[index]
 ```
 
-In my test case, it retruened business id with 'hroo5nOO8b9QhHX0GLg7oA' with 0.79874643505 score. 
+When testing with the Vietnamese restaurant that the user gave 5 star, it returned business id of 'hroo5nOO8b9QhHX0GLg7oA' with 0.79874643505 score. 
 Querying the business id, I know I got another Vietnamese restaurnt in Las Vegas. So the text review comparsion gave me a pretty satisfactory result. 
 
 ```
@@ -283,6 +283,6 @@ for r in business.find({'business_id':'hroo5nOO8b9QhHX0GLg7oA'}):
 
 #### Next Steps
 
-There are many things left to be done! I will need to make the functions I wrote into a Python packages or Flask app so it looks more like a real recommendation engine. Then, I am going to post t-sne and LDA and NMF topic modeling, which I did not include in this post. This sould be an interesting visualization.  
+There are many things left to be done! I will need to rewrite the functions I wrote as Python packages or Flask app so it looks more like a real recommendation engine. Then, I am going to post t-sne and LDA and NMF topic modeling, which I did not include in this post. It sould be an interesting visualization.  
 
 Besides text learning, I still have so many things I want to do with the Yelp Challenge data. I would like to do a deeper EDA on all cities, create a classification model on star reviews based on text, then finally work with 2000+ images for an object recognition (deep learning!). 
