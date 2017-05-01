@@ -46,7 +46,7 @@ Simpson_Home
 ```
 22.15% of the time the scene takes place in Simpson Home.
 
-```
+```sql
 SELECT gender, COUNT(*) as Total 
 FROM characters 
 WHERE gender !='na' 
@@ -61,7 +61,7 @@ m 	    252
 Huge gender inequality in the show.
 Let's take a look at number of script lines per character
 
-```
+```sql
 SELECT character_name, count(*) AS script_cnt 
 FROM script_lines 
 WHERE character_name !='' 
@@ -103,7 +103,7 @@ Homer outnumbers any of his family members in number of script lines.
 Let's take a look at writers/directors information.
 Writers with highest IMDB rating,
 
-```
+```sql
 SELECT a.writer, AVG(b.us_viewers_in_millions) AS average_us_viewership, AVG(b.imdb_rating) AS average_imdb_rating, COUNT(*) AS num_episodes 
 FROM writers a JOIN episodes b ON a.production_code = b.production_code \
 GROUP BY 1 
@@ -117,7 +117,7 @@ LIMIT 10
 
 Directors with highest IMDB rating
 
-```
+```sql
 SELECT a.director, AVG(b.us_viewers_in_millions) AS average_us_viewership, AVG(b.imdb_rating) AS average_imdb_rating, COUNT(*) AS num_episodes 
 FROM directors a JOIN episodes b ON a.production_code = b.production_code \
 GROUP BY 1 
