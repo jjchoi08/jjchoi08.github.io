@@ -13,13 +13,13 @@ As a first step, I threw csv files into my local MySQL. It was easy for me to sl
 
 Let's first take a look at IMDB rating and US viewership of 27 seasons. Early seasons have high ratings & high viewer while later ones are in low ratings and low viewer area. 
 
-![alt text](/images/season_imdb_viewer.png "season stat")
+![alt text](/images/season_rating_viewer.png "season stat")
 
 
 In fact, US viewer number has decreased gradually over the last decade. "The Simpsons" was one of the first TV animations that targeted adults and now there are many other shows in similar content such as "The Family Guy" or "South Park". This could be one reason for the decline but it's really the general trend of US viewer for TV shows. This would need an additional analysis after gathering external data and I will leave this part out for now.
 
 
-![alt text](/images/simpson_viewership.png "viewership")
+![alt text](/images/simpsons_viewership.png "viewership")
 
 Now some SQL for EDA..
 
@@ -47,7 +47,10 @@ Simpson_Home
 22.15% of the time the scene takes place in Simpson Home.
 
 ```
-SELECT gender, COUNT(*) as Total from characters WHERE gender !='na' GROUP BY 1;
+SELECT gender, COUNT(*) as Total 
+FROM characters 
+WHERE gender !='na' 
+GROUP BY 1;
 
 gender 	Total
 f 	    71
@@ -81,7 +84,7 @@ WHERE character_name!='';
 Homer_Script
 21.20362
 ```
-Of course, 22.20% of total scrip lines belong to Homer
+More than 20% of total scrip lines belong to Homer
 
 
 ```sql
