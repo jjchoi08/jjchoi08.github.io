@@ -290,7 +290,7 @@ This is the code for the front-end.
 </html>
 ```
 
-Now the backend looks like below. THe model is loaded in the beginning and the predict button would trigger the action and make prediction. Please note that I deleted the code for providing artists information here just because I do not want to disclose which street artists I am testing with.  
+Now the backend looks like below. The model is loaded in the beginning and the predict button would trigger the action and make prediction. Please note that I deleted the code for providing artists information here just because I do not want to disclose which street artists I am testing with.  
 
 ```python
 from keras.preprocessing.image import ImageDataGenerator, array_to_img, img_to_array, load_img
