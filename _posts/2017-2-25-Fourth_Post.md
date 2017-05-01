@@ -111,9 +111,9 @@ HAVING num_episodes > 2
 ORDER BY 3 DESC 
 LIMIT 10
 ```
-![alt text](/images/simpson_writer.png "writers")
+![alt text](/images/simpsons_writer.png "writers")
 
-![alt text](/images/writer_viz.png "writer_viz")
+![alt text](/images/writer_vis.png "writer_viz")
 
 Directors with highest IMDB rating
 
@@ -126,9 +126,9 @@ ORDER BY 3 DESC
 LIMIT 10
 ```
 
-![alt text](/images/simpson_directors.png "directors")
+![alt text](/images/simpsons_directors.png "directors")
 
-![alt text](/images/simpson_director_viz.png "directors_viz")
+![alt text](/images/simpsons_director_viz.png "directors_viz")
 
 ```sql
 SELECT COUNT(DISTINCT writer) AS Total_Writers FROM writers
