@@ -8,10 +8,12 @@ title: The Mural Networks
 Street art has evoloved from text based graffiti to complex form of artistic expressions. In 80s and 90s, street art could be viewed as a form of Vandalism but today, street artists often collaborate with property owners, clothing brands, galleries, and non-profit organizations to promote products, send messages to the public, or to promote their artworks. The market for street art has been booming for last few years and number of NY's popular street artists are invited for an exhibition overseas. As a street art fan, I wanted to create something related to New York and contribute to the art + technology field, which I think is still somewhat new.
 
 If interested, check out some articles related to street art market booming:
-https://www.wsj.com/articles/street-art-is-finding-a-home-with-collectors-1442800929
-http://nypost.com/2015/10/10/where-did-all-of-banksys-nyc-art-go/
-http://www.koreaherald.com/view.php?ud=20161211000253
-https://hypebeast.com/2016/10/jerkface-interview-saturday-morning-exhibit
+- <a href='https://www.wsj.com/articles/street-art-is-finding-a-home-with-collectors-1442800929'>WSJ: Street Art is Finding a Home with Collectors</a>
+- <a href='http://nypost.com/2015/10/10/where-did-all-of-banksys-nyc-art-go/'>Banksy in NYC</a>
+- <a href='http://www.koreaherald.com/view.php?ud=20161211000253'>NY Street Artist Exhibition in Korea</a>
+- <a href='https://hypebeast.com/2016/10/jerkface-interview-saturday-morning-exhibit'>NY Street Artist Exhibition in Hong Kong</a>
+
+
 
 
 ### Motivation
