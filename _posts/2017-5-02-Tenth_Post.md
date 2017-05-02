@@ -64,6 +64,7 @@ Let's assume we are recommending 5 playlists for user_id = 1 (let's call it user
 Rank is the total number of songs that a user listened to, in same playlists with the user x's.
 rank_table would look something like this,
 
+```
 SELECT * FROM rank_table
 
 user_id  |  Rank
@@ -72,10 +73,10 @@ user_id  |  Rank
 3        |    6
 4        |    6
 
-rank_table 
+```
 
 ```
- 1) SELECT * 
+ 1) The first table
 
 reco.timestamp | reco.userid | reco.trackid | reco.playlistid | reco.duration | rank_table.rank
 3/2            | 2           | 2            | 3               | 100           | 10
@@ -84,7 +85,7 @@ reco.timestamp | reco.userid | reco.trackid | reco.playlistid | reco.duration | 
 ```
 
 ```
-2) SELECT *
+2) The Second table
 
 reco.timestamp | reco.userid | reco.trackid | reco.playlistid | reco.duration | rank_table.rank | userx.reco.timestamp | userx.userid | userx.trackid | userx.playlistid | userx.duration 
 3/2            | 2           | 2            | 3               | 100           | 10              | 3/2                  | 1            | 2             | 3                | 100            
