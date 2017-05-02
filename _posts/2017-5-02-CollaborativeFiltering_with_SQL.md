@@ -1,7 +1,9 @@
-# Collaborative Filtering with SQL
+---
+layout: single
+title:Collaborative Filtering with SQL
+---
 
-
-I interviewed with few tech companies last year for data analyst / data scientist roles. I came across some interesting SQL questions as their data challenges. Although I used SQL for many years for reports/dashboard management, some of them were very challenging. I could see SQL still being widely used in data science field. I wanted to post about one interesting SQL problem that I received as a data challenge.
+I interviewed with few tech companies last year for data analyst / data scientist roles. I came across some interesting SQL questions as their data challenges. Although I've used SQL for many years for reports/dashboard management, some of them were very challenging. I could see SQL still being widely used in data science field. I wanted to post about one interesting SQL problem that I received as a data challenge.
 
 
 ### Simple Recommendation System
@@ -38,11 +40,13 @@ listening_duration
 playlists table with columns:
 - user_id: the user who uploaded the playlist
 - playlist_id: the unique identifier of the playlist
+
 listings table with columns:
 - playlist_id: the unique identifier of the playlist
 - track_id: the unique identifier of the track
 - position: the position of this track in the playlist
 - track_duration: the length of the track recording (in milliseconds)
+
 plays table with columns:
 - timestamp: the time the play occurred
 - user_id: the user who played the given track
