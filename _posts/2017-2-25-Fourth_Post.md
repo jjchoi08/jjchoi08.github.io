@@ -144,7 +144,10 @@ There have been total 127 writers and 43 directors throughout 27 seasons
 
 ### D3 Visualization for The Simpsons Episodes
 
- <iframe src="https://github.com/jjchoi08/jjchoi08.github.io/_htmlfiles/simpsons_d3.html"><body></body></iframe> 
+
+<iframe src="http://bl.ocks.org/mbostock/raw/4061502/0a200ddf998aa75dfdb1ff32e16b680a15e5cb01/" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+
+
 
 ### Next Part
 
