@@ -54,7 +54,7 @@ plays table with columns:
 - playlist_id: the unique identifier of the playlist (set to 0 if the play did not happen in a playlist)
 - listening_duration: the duration that the user listened to the track (in milliseconds)
 
-### Challlege: Recommend five playlist that a user haven't heard before
+### Challlege: Recommend five playlist that a user has not yet heard
 
 My approach would be using collaborative filtering and find playlists that contains music that the user has listened to the most. Based on this, I can come up with some kind of rank.I will create a rank_table with users who might have similar taste in music.
 
