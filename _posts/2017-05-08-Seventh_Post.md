@@ -5,7 +5,7 @@ title: The Simpsons by Data
 
 # Testing Simpsons Chart
 
-{% highlight html %}
+
 <style>
     circle.dimple-series-1 {
       fill: red;
@@ -18,13 +18,13 @@ title: The Simpsons by Data
  {% endhighlight %}
 
 
-{% highlight html %}
+
 <div id='d3div'></div>
-{% endhighlight %}
+
 
 ## Testing 123
 
-{% highlight html %}
+
 
 <script src="http://d3js.org/d3.v4.min.js"></script>
 <script src="http://dimplejs.org/dist/dimple.v2.3.0.min.js"></script>
@@ -83,10 +83,7 @@ title: The Simpsons by Data
     };
 </script>
 
-{% endhighlight %}
 
-
-{% highlight html %}
 <script type="text/javascript">
 /*
   Use D3 (not dimple.js) to load the TSV file
@@ -94,4 +91,3 @@ title: The Simpsons by Data
   */
 d3.tsv("../_data/d3_episodes.tsv", draw);
 </script>
-{% endhighlight %}
