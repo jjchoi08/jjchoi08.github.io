@@ -36,11 +36,11 @@ title: The Simpsons by Data
           width = 1500 - margin,
           height =550 - margin;
 
-      d3.select("body")
+      d3.select("#d3div")
         .append("h2")
         .text("The Simpsons by Data")
 
-      var svg = d3.select("body")
+      var svg = d3.select("#d3div")
         .append("svg")
           .attr("width", width + margin)
           .attr("height", height + margin)
