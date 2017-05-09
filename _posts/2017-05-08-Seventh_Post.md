@@ -26,8 +26,8 @@ title: The Simpsons by Data
 
 
 
-<script src="http://d3js.org/d3.v4.min.js"></script>
-<script src="http://dimplejs.org/dist/dimple.v2.3.0.min.js"></script>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dimple/2.3.0/dimple.latest.min.js"></script>
 <script type="text/javascript">
     function draw(data) {
 
