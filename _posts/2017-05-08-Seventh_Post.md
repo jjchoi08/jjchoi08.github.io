@@ -89,5 +89,5 @@ title: The Simpsons by Data
   Use D3 (not dimple.js) to load the TSV file
   and pass the contents of it to the draw function
   */
-d3.tsv("https://github.com/jjchoi08/DSProj/blob/gh-pages/d3_episodes.tsv", draw);
+d3.tsv("https://jjchoi08.github.io/DSProj/d3_episodes.tsv", draw);
 </script>
