@@ -125,7 +125,7 @@ I created a D3.js / Dimple.js chart for all episodes in 27 seasons of the show. 
 
 <script type="text/javascript">
 
-  d3.tsv("https://jjchoi08.github.io/DSProj/d3_episodes.tsv", draw);
+  d3.tsv("https://jjchoi08.github.io/DSProj/data/d3_episodes.tsv", draw);
   
 </script>
 
