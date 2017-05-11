@@ -59,7 +59,7 @@ I created a D3.js & Dimple.js chart for all episodes in 27 seasons of the show. 
 
 
     var myChart = new dimple.chart(svg, data);
-    myChart.setBounds(80, 25, 1000, 700);   
+    myChart.setBounds(80, 40, 1000, 700);   
 
 
     var myColor = myChart.defaultColors = [
