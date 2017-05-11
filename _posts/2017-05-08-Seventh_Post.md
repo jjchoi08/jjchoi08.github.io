@@ -7,6 +7,8 @@ The iconic animated show "The Simpson" is in its 28th season with almost 600 epi
 
 I created a D3.js & Dimple.js chart for all episodes in 27 seasons of the show. I wanted to be able to identify which episodes are the best / worst ones in a glance so I decided to visualize all episodes by IMDB rating, US viewership, and air date. The chart shows all episodes as data points with x-axis being air date and y-axis for IMDB rating. The size of the circle represents US viewership number. I gathered additional writer/director information from Wikipedia and included in the toolip. Enjoy!
 
+(Please note that the font is missing and displaying incorrectly in iOS mobile devices)
+
 <br>
 
 <div id='d3div'></div>
