@@ -3,9 +3,11 @@ layout: single
 title: The Simpsons by The Data
 ---
 
-The iconic animated show "The Simpson" is in its 28th season with almost 600 episodes. The first season started in 1989 and it almost aired for three decades. I've been a fan of The Simpsons growing up and when I came across a data set for Simpsons in Kaggle, I had to dive in and do something about it. The data can be found <a href="https://www.kaggle.com/wcukierski/the-simpsons-by-the-data">here</a>.
+The iconic animated show "The Simpson" is in its 28th season with almost 600 episodes. The first season started in 1989 and the show aired for almost three decades. I was a fan of The Simpsons growing up and when I came across Simpsons dataset in Kaggle, I had to dive in and explore. The data can be found <a href="https://www.kaggle.com/wcukierski/the-simpsons-by-the-data">here</a>.
 
-I created a D3.js / Dimple.js chart for all episodes in 27 seasons of the show. I wanted to be able to identify which episodes are the best / worst ones in a glance. The chart shows all episodes as data points with x-axis being air date in year and y-axis for IMDB rating. The size of the circle represents US viewership number. I gathered additional writer/director information from Wikipedia and included in the toolip. Enjoy!
+I created a D3.js & Dimple.js chart for all episodes in 27 seasons of the show. I wanted to be able to identify which episodes are the best / worst ones in a glance so I decided to visualize all episodes by IMDB rating, US viewership, and air date. The chart shows all episodes as data points with x-axis being air date and y-axis for IMDB rating. The size of the circle represents US viewership number. I gathered additional writer/director information from Wikipedia and included in the toolip. Enjoy!
+
+<br>
 
 <div id='d3div'></div>
 
@@ -129,6 +131,10 @@ I created a D3.js / Dimple.js chart for all episodes in 27 seasons of the show. 
   
 </script>
 
-# What is happening?
+<br>
 
-The IMDB rating declined over the 27 seasons. We could also see that the circle sizes being decreased gradually. As most of the Simpsons fans would agree, the first 8 seasons have great ratings. So if you are planning to watch The Simpsons again or for the first time, you know which ones to watch!
+The circles (data points) are mostly positioned between 7 and 9 IMDB rating in first few seasons but they are in much lower range for later ones. The size of the circle, which represent the US viewership number in millions, also gradually decreases as season progresses. It's interesting how IMDB ratings and US viewership have declined over 27 seasons. Does it mean The Simpsons is dying? The decline in US viewership can be general trend for all prime TV shows. To answer this question, it would require further analysis with external data.
+
+For now, if you are planning to watch The Simpsons again or for the first time, you know which ones to watch. As most of the Simpsons fans would agree, the first few seasons are more popular than the later ones. I remember my favoriate episode was "Marge vs. The Monorail" (Season 4, Episode 12- written by Conan O'Brien) and it has 9.0 IMDB rating so I would agree with the IMDB rating. 
+
+Thanks for reading and feel free to ask questions.
