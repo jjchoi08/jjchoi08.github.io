@@ -24,4 +24,4 @@ It only runs in my local machine yet. However, I am planning to fine-tune it aft
 
 Lastly, here is a tweet from Metis from my presentation day.
 
-[![IMAGE ALT TEXT HERE]
+![alt text](/images/muralnetworks2.png)
