@@ -18,7 +18,7 @@ So with 5000+ images, I was able to create something that works. It was definite
 
 The next step was a web app. My ultimate goal was to create and iOS App and test it on the street. But as an initial product, I created a Python Flask App that does the job and named it The Mural Networks (Mural + Neural Networks). Here is a demo video that I used for my final presentation. 
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://youtu.be/J6RCjJNd1mU)
+[![Alt text](https://img.youtube.com/vi/J6RCjJNd1mU/0.jpg)](https://www.youtube.com/watch?v=J6RCjJNd1mU)
 
 It only runs in my local machine yet. However, I am planning to fine-tune it after learning more about Deep Learning. Stay tuned for a test version!
 
