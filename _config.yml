@@ -79,7 +79,7 @@ analytics:
 author:
   name             : "James Choi"
   avatar           : "https://github.com/jjchoi08/jjchoi08.github.io/blob/master/images/profile2.jpg?raw=true"
-  bio              : "<ul><li>Data Engineer at Doximity</li><li>Metis Data Science Bootcamp NYC Cohort 10 Alumni</li><li>Ex-IBMer</li></ul>"
+  bio              : "* Data Engineer at Doximity<br> * Metis Data Science Bootcamp NYC Cohort 10 Alumni<br> * Ex-IBMer</li></ul>"
   location         : "New York, NY"
   email            : "jungsangjameschoi@gmail.com"
   uri              :
