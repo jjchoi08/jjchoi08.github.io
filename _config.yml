@@ -10,7 +10,7 @@ locale                   : "en"
 title                    : "Just another data science blog..."
 title_separator          : "-"
 name                     : "James Choi"
-description              : "Stories about my data science projects"
+description              : "Data Science For Newbies"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -79,7 +79,7 @@ analytics:
 author:
   name             : "James Choi"
   avatar           : "https://github.com/jjchoi08/jjchoi08.github.io/blob/master/images/profile2.jpg?raw=true"
-  bio              : "Former Web-developer, Business Analyst, and Software Engineer turned into Data Analyst. Metis Data Science Bootcamp NYC Cohort 10 Alumni"
+  bio              : "Data Engineer at Doximity. Metis Data Science Bootcamp NYC Cohort 10 Alumni"
   location         : "New York, NY"
   email            : "jungsangjameschoi@gmail.com"
   uri              :
@@ -92,7 +92,7 @@ author:
   github           : "jjchoi08"
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : "kingjamesjc"
   lastfm           :
   linkedin         : "jamesjschoi"
   pinterest        :
